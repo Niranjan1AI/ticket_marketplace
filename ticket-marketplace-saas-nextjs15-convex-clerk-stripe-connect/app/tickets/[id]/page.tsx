@@ -17,6 +17,7 @@ export default function TicketPage() {
     ticketId: params.id as Id<"tickets">,
   });
 
+  // Here is a test
   useEffect(() => {
     if (!user) {
       redirect("/");
